@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
-import { MAP_API_KEY } from '../../../Services/ROR_Api/Constants';
+import { MAP_API_KEY } from '../../../Services/Java_Api/Constants';
 
 const containerStyle = {
     width: '100%',

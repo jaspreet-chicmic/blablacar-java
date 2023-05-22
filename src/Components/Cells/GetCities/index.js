@@ -4,7 +4,7 @@ import Header from '../../Atoms/Header'
 import { STRINGS } from '../../../Shared/Constants'
 import CustomLinkListCreator from '../../Atoms/CustomLinkListCreator'
 import axios from 'axios'
-import { MAP_API_KEY } from '../../../Services/ROR_Api/Constants'
+import { MAP_API_KEY } from '../../../Services/Java_Api/Constants'
 
 export default function GetCities({searchedLocation,setSearchedLocation=()=>{},setCity=()=>{},setCoordinates=()=>{},customInputNeeded=true}) {
     

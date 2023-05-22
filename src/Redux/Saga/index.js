@@ -1,7 +1,7 @@
 import { takeLatest, put, all } from "redux-saga/effects";
 import axios from "axios";
 import { ACTION_STATES } from "../ActionStates";
-import { BASE_URL, URL_EXTENSIONS } from "../../Services/ROR_Api/Constants";
+import { BASE_URL, URL_EXTENSIONS } from "../../Services/Java_Api/Constants";
 import { LOCALSTORAGE_KEY_NAME } from "../../Shared/Constants";
 import { savingProfilePic, setUserDetails, setVehicleData, settingLoaderState } from "../Actions";
 
@@ -53,6 +53,7 @@ function* sendPasswordResetMailData(payload) {
         console.log(error, "error in sending mail")
     }
 }
+
 function* sendResetPassword(payload) {
     try {
         yield put(settingLoaderState(true))

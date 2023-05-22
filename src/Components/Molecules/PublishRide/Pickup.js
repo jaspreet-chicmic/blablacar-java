@@ -5,7 +5,7 @@ import { STRINGS } from '../../../Shared/Constants'
 import CustomLinkListCreator from '../../Atoms/CustomLinkListCreator'
 // import GeocodingComponent from '../Cities'
 import axios from 'axios'
-import { MAP_API_KEY } from '../../../Services/ROR_Api/Constants'
+import { MAP_API_KEY } from '../../../Services/Java_Api/Constants'
 import GetCities from '../../Cells/GetCities'
 
 
