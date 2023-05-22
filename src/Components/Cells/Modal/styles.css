@@ -1,0 +1,25 @@
+.Modal-Container{
+    padding-top: 72px;
+     position: absolute;
+     top:0;
+     left:0;
+     background-color: white;
+     width:100%;
+     height:200%
+}
+.Modal-CloseBtn{
+    margin: 120px;
+    background-color: white;
+    height: 40px;
+    position: absolute;
+    top:0;
+    left:0;
+    height:30px;
+    width:29px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    background-color:rgba(248, 250, 250, 0.95);
+    border-radius: 50px;
+    margin-left:15%
+    
+}
